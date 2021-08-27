@@ -4,9 +4,9 @@ const fs = require('fs');
 
 const msalConfig = {
     auth: {
-        clientId: "834524bd-f12e-4a26-a40a-55e2a282296b",
-        authority: "https://login.microsoftonline.com/7d6682b3-106f-47ba-9b6f-dca224b821c0",
-        clientSecret: "pg3o8SC73sHqQFf3e1b_-gwph0ir-OSh_R",
+        clientId: "CLIENT_ID",
+        authority: "https://login.microsoftonline.com/TENANT_ID",
+        clientSecret: "SECRET",
    }
 };
 

@@ -7,7 +7,7 @@ const privateKeySource = fs.readFileSync('./certs/pocappcertificatebasedauth.key
 
 const privateKeyObject = crypto.createPrivateKey({
     key: privateKeySource,
-    passphrase: "Portal12345!",
+    passphrase: "PASSPHRASE_CERTIFICATE",
     format: 'pem'
 });
 

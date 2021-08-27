@@ -1,0 +1,16 @@
+{
+  "name": "certificate-based-authentication-AAD",
+  "version": "1.0.0",
+  "description": "Node version?",
+  "main": "app-Secret.js",
+  "scripts": {
+    "start": "node app-Certificate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^1.3.0"
+  }
+}

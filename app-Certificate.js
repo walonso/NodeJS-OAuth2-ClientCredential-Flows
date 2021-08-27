@@ -23,10 +23,10 @@ const privateKey = privateKeyObject.export({
 
 const msalConfig = {
     auth: {
-        clientId: "834524bd-f12e-4a26-a40a-55e2a282296b",
-        authority: "https://login.microsoftonline.com/7d6682b3-106f-47ba-9b6f-dca224b821c0",
+        clientId: "CLIENT_ID",
+        authority: "https://login.microsoftonline.com/TENANT_ID",
         clientCertificate: {
-            thumbprint: "EA9C0EB8CC5E1EBF05DDBB47E2074521B25C7C4E", // a 40-digit hexadecimal string
+            thumbprint: "THUMBPRINT", // a 40-digit hexadecimal string
             privateKey: privateKey
         }
    }
